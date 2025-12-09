@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Esnaux
+- PRÉNOM : Virgile
+- GROUPE : MMi1 B2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/3dp0KU6waEs7ByRSsLw6qy/Maquette-SAE-130?node-id=8-15&t=9etDElTQlJdQIshR-1
 
 ## Sujet
 
