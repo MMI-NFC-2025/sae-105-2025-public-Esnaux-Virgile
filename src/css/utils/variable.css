@@ -51,6 +51,8 @@
     /* 2px */
     --space-base: 0.25rem;
     /* 4px */
+    --space-smd: 0.375rem;
+    /* 6px */
     --space-md: 0.5rem;
     /* 8px */
     --space-lg: 0.75rem;
