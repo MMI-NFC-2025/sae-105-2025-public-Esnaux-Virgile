@@ -18,7 +18,7 @@
 
 .header__logo {
     font-family: var(--font-important);
-    font-size: var(--text-4demixl);
+    font-size: var(--text-header);
     font-weight: var(--font-important-weight);
     color: var(--dark);
 }

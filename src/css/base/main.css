@@ -1,0 +1,4 @@
+header.header+* {
+    margin-top: var(--space-hero);
+    /* Le margin-top compense la hauteur du header fixe */
+}
