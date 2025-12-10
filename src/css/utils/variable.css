@@ -73,8 +73,4 @@
     /* 52px */
     --space-hero: 3.5rem;
     /* 56px */
-
-    /* Variables diverses */
-    --header-height: 88px;
-    --hero-height: calc(100vh - var(--space-hero));
 }

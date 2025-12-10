@@ -1,0 +1,57 @@
+/* Section Footer */
+
+.footer {
+    background-color: var(--yellow);
+    padding: var(--space-6xl) var(--space-4xl);
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4xl);
+}
+
+.footer__logo__left {
+    font-family: var(--font-important);
+    font-size: var(--text-5xl);
+    font-weight: var(--font-important-weight);
+    color: var(--dark);
+}
+
+.footer__logo__left-festival {
+    font-family: var(--font-important);
+    font-size: var(--text-3xl);
+    font-weight: var(--font-important-weight);
+    color: var(--dark);
+}
+
+.footer__leftelement {
+    font-family: var(--font-mono);
+    font-size: var(--text-lg);
+    font-weight: bold;
+    color: var(--dark);
+}
+
+.footer__leftelement-text {
+    font-family: var(--font-mono);
+    font-size: var(--text-lg);
+    color: var(--dark);
+}
+
+.footer__rightelement {
+    font-family: var(--font-mono);
+    font-size: var(--text-xl);
+    color: var(--dark);
+    margin-left: auto;
+    text-align: right;
+}
+
+.footer__division {
+    width: 100px;
+    height: 4px;
+    background-color: var(--dark);
+    margin-left: auto;
+}
+
+.footer__logoMMix {
+    width: 150px;
+    margin-left: auto;
+    margin-top: var(--space-2xl);
+}
