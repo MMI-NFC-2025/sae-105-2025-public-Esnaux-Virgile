@@ -27,3 +27,5 @@ Soyez attentifs à l'ordre d'import :
 /* Components */
 @import "components/menu.css";
 @import "components/hero.css";
+@import "components/btn.css";
+@import "components/caroussel.css";

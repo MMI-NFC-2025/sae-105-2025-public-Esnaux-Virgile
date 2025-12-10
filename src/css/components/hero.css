@@ -1,4 +1,4 @@
-.hero {
+.hero_accueil {
     background: url('/assets/image/hero.avif') center/cover no-repeat;
     height: var(--hero-height);
     display: flex;

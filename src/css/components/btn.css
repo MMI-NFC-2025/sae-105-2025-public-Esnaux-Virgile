@@ -1,0 +1,38 @@
+/* Section des boutons */
+.btn-accueil {
+    margin-top: var(--space-6xl);
+    margin-bottom: var(--space-6xl);
+}
+
+/* Block - Boutons pleine largeur */
+.btn {
+    display: flex;
+    width: 75%;
+    /* Largeur à 75% pour laisser l'espace sur les côtés */
+    padding: var(--space-lg) var(--space-3xl);
+    margin: var(--space-lg);
+    margin-bottom: var(--space-3xl);
+    font-family: var(--font-mono);
+    font-size: var(--text-lg);
+    text-decoration: none;
+    text-align: left;
+    background-color: var(--white-btn);
+    color: var(--dark);
+    border: none;
+    border-radius: var(--space-lg);
+}
+
+.btn__text {
+    padding-left: var(--space-4xl);
+}
+
+/* Modifier pour le bouton de la billeterie (jaune) */
+.btn--billeterie {
+    background-color: var(--yellow);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 var(--space-sm) var(--space-base) var(--dark);
+    /* Ajout d'une ombre portée au survol */
+}
