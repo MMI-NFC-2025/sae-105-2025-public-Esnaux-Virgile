@@ -4,7 +4,6 @@
     margin-bottom: var(--space-6xl);
 }
 
-/* Block - Boutons pleine largeur */
 .btn {
     display: flex;
     width: 75%;
