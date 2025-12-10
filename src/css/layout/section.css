@@ -1,0 +1,87 @@
+/* Section Genre Musical */
+
+.genre {
+    background-color: var(--red);
+    padding: var(--space-lg) var(--space-smd);
+}
+
+.genre__titre {
+    font-family: var(--font-important);
+    font-size: var(--text-5xl);
+    font-weight: var(--font-important-weight);
+    color: var(--dark);
+    margin: 0;
+    margin-bottom: var(--space-base);
+}
+
+/* Barre de séparation */
+.genre__division {
+    width: 120px;
+    height: 4px;
+    background-color: var(--dark);
+    margin-bottom: var(--space-xl);
+}
+
+
+/* Image vinyle */
+
+.img__vinyl-img {
+    width: 50%;
+    height: 200px;
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-2xl);
+}
+
+
+/* Contenu texte et image */
+
+.infos__content {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.infos--text {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light);
+    font-family: var(--font-mono);
+    font-size: var(--text-3xl);
+    color: var(--dark);
+    padding: var(--space-xl);
+    margin: 0;
+    margin-bottom: var(--space-6xl)
+}
+
+
+/* Section Partenaires */
+
+.text__red {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    background-color: var(--red);
+    font-family: var(--font-mono);
+    font-size: var(--text-3xl);
+    color: var(--dark);
+    padding: var(--space-xl);
+    margin: auto;
+    margin-bottom: var(--space-2xl);
+}
+
+.partenaires__logo {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: var(--space-5xl);
+    margin-top: var(--space-5xl);
+}
+
+.partenaires__division {
+    width: 160px;
+    height: 4px;
+    align-content: center;
+    background-color: var(--dark);
+    margin: 0 auto;
+}
