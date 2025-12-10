@@ -45,3 +45,16 @@
     border-radius: 3px;
     transition: 0.4s;
 }
+
+/* Animation croix */
+.menu-btn.open .bar1 {
+    transform: rotate(45deg) translate(8px, 8px);
+}
+
+.menu-btn.open .bar2 {
+    opacity: 0;
+}
+
+.menu-btn.open .bar3 {
+    transform: rotate(-45deg) translate(7px, -7px);
+}

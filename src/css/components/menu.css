@@ -1,0 +1,58 @@
+/* Menu */
+.menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--yellow);
+    z-index: 99;
+    transition: top 0.4s ease;
+    padding: 100px var(--space-xl) var(--space-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.menu.open {
+    top: 0;
+}
+
+.menu__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+
+.menu__item {
+    width: 100%;
+}
+
+.menu__link {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: var(--text-lg);
+    color: var(--dark);
+    text-decoration: none;
+    background-color: var(--light);
+    padding: var(--space-xl);
+    text-align: center;
+    transition: opacity 0.3s;
+    box-sizing: border-box;
+}
+
+.menu__link:hover {
+    opacity: 0.8;
+}
+
+/* Bloque le scroll du body quand menu ouvert */
+body.menu-open {
+    overflow: hidden;
+}
