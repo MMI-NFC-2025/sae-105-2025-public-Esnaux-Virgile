@@ -1,0 +1,70 @@
+:root {
+    /* Couleurs */
+    --light: oklch(1 0 0 / 1);
+    --dark: rgb(0, 0, 0);
+    --yellow: rgba(253, 206, 83, 1);
+    --red: rgba(251, 110, 110, 1);
+
+    --gray-100: oklch(0.9677 0 0 / 1);
+    --gray-200: oklch(0.9176 0 0 / 1);
+    --gray-300: oklch(0.8671 0 0 / 1);
+    --gray-400: oklch(0.6822 0 0 / 1);
+    --gray-500: oklch(0.5353 0 0 / 1);
+    --gray-600: oklch(0.4123 0 0 / 1);
+    --gray-700: oklch(0.3332 0 0 / 1);
+    --gray-800: oklch(0.2169 0 0 / 1);
+    --gray-900: oklch(0.1371 0 0 / 1);
+
+    /* Polices de caractère */
+    --font-mono: "Anonymous Pro", monospace;
+    --font-important: "Barrio", cursive;
+
+    /* Styles de typographies */
+    --font-important-weight: 1000;
+
+    /* Tailles de texte */
+    --text-sm: 0.875rem;
+    /* 14px */
+    --text-base: 1rem;
+    /* 16px */
+    --text-lg: 1.125rem;
+    /* 18px */
+    --text-xl: 1.25rem;
+    /* 20px */
+    --text-2xl: 1.5rem;
+    /* 24px */
+    --text-3xl: 1.875rem;
+    /* 30px */
+    --text-4xl: 2.25rem;
+    /* 36px */
+    --text-4demixl: 2.625rem;
+    /* 42px */
+    --text-5xl: 3rem;
+    /* 48px */
+    --text-6xl: 3.75rem;
+    /* 60px */
+    --text-7xl: 4.5rem;
+    /* 72px */
+
+    /* Espaces */
+    --space-sm: 0.125rem;
+    /* 2px */
+    --space-base: 0.25rem;
+    /* 4px */
+    --space-md: 0.5rem;
+    /* 8px */
+    --space-lg: 0.75rem;
+    /* 12px */
+    --space-xl: 1rem;
+    /* 16px */
+    --space-2xl: 1.25rem;
+    /* 20px */
+    --space-3xl: 1.5rem;
+    /* 24px */
+    --space-4xl: 2rem;
+    /* 32px */
+    --space-5xl: 2.5rem;
+    /* 40px */
+    --space-6xl: 3.25rem;
+    /* 52px */
+}
