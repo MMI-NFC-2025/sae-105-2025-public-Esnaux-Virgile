@@ -15,7 +15,7 @@
     width: 48%;
 }
 
-.footer__logo__left {
+.footer__logo-left {
     font-family: var(--font-important);
     font-size: var(--text-header);
     font-weight: var(--font-important-weight);
@@ -23,7 +23,7 @@
     line-height: 1;
 }
 
-.footer__logo__left-festival {
+.footer__logo-leftfestival {
     font-family: var(--font-important);
     font-size: var(--text-miniheader);
     font-weight: var(--font-important-weight);
@@ -83,7 +83,7 @@
 .footer__logoMMi {
     background-color: var(--light);
     padding: var(--space-xl);
-    border-radius: var(--space-md);
+    border-radius: var(--space-xl);
     text-decoration: none;
     display: block;
     transition: transform 0.3s;
