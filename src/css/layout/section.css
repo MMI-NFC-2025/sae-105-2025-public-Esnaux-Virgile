@@ -137,14 +137,12 @@
     margin-bottom: var(--space-6xl);
 }
 
-/* Container avec espacement en haut et en bas */
 .artistes__special {
     margin-top: var(--space-6xl);
     margin-bottom: var(--space-6xl);
     padding: 0;
 }
 
-/* Supprimer l'espace sous les images */
 .artistes__special img {
     display: block;
     width: 100%;
