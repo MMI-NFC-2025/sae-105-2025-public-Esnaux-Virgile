@@ -28,5 +28,5 @@ Soyez attentifs à l'ordre d'import :
 /* Components */
 @import "components/menu.css";
 @import "components/btn.css";
-@import "components/caroussel.css";
+@import "components/carousel.css";
 @import "components/card.css";
