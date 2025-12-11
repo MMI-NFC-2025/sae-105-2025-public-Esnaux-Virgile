@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Jumelages Festival</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barrio&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap">
+    <style>
+        body {
+            background-color: var(--blue);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__link" href="/index.html">
+            <span class="header__logo">JUMELAGES</span>
+        </a>
+
+        <button class="menu-btn" id="menu-btn" aria-label="Menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </button>
+    </header>
+
+    <section class="hero_accueil"></section>
+
+    <nav class="menu" id="menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a href="index.html" class="menu__link">Accueil</a></li>
+            <li class="menu__item"><a href="a-propos.html" class="menu__link">À Propos</a></li>
+            <li class="menu__item"><a href="programmation.html" class="menu__link">Programmation</a></li>
+            <li class="menu__item"><a href="artistes.html" class="menu__link">Artistes</a></li>
+            <li class="menu__item"><a href="scene.html" class="menu__link">Scène</a></li>
+            <li class="menu__item"><a href="infos-pratiques.html" class="menu__link">Infos pratiques</a></li>
+            <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main__contact">
+        <section class="contact">
+            <div class="text__red--hero">Contact</div>
+
+            <div class="contact__form-container">
+                <form class="contact__form">
+                    <div class="form__group">
+                        <label for="nom" class="form__label">Nom</label>
+                        <input type="text" id="nom" name="nom" class="form__input" placeholder="Indiquer votre demande"
+                            required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="mail" class="form__label">Mail</label>
+                        <input type="email" id="mail" name="mail" class="form__input" placeholder="Indiquer votre mail"
+                            required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="sujet" class="form__label">Sujet</label>
+                        <input type="text" id="sujet" name="sujet" class="form__input"
+                            placeholder="Décrivez votre sujet" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="message" class="form__label">Message</label>
+                        <textarea id="message" name="message" class="form__textarea" rows="8" required></textarea>
+                    </div>
+
+                    <button type="submit" class="form__submit">Envoyer</button>
+                </form>
+            </div>
+
+            <div class="text__red">Information</div>
+            <div class="text__navyblue-var">
+                jumelagefestival@gmail.com<br>
+                03 XX XX XX XX <br>
+                Chemin de Halage, 25200 montbéliard
+            </div>
+            <div class="icons-container">
+                <a href="https://www.youtube.com/" class="icon-link">
+                    <img src="assets/icon/Icone_Youtube.svg" alt="Icône 1" class="icon">
+                </a>
+                <a href="https://www.facebook.com/" class="icon-link">
+                    <img src="assets/icon/Icone_Facebook.svg" alt="Icône 2" class="icon">
+                </a>
+                <a href="https://www.instagram.com/" class="icon-link">
+                    <img src="assets/icon/Icone_ Instagram.svg" alt="Icône 3" class="icon">
+                </a>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__left">
+            <div class="footer__logo">
+                <span class="footer__logo-left">JUMELAGES</span>
+                <span class="footer__logo-leftfestival">FESTIVAL</span>
+            </div>
+            <div class="footer__leftelement">
+                <p>CONTACT</p>
+                <div class="footer__leftelement-text">
+                    <p>Virgile Esnaux <br> MMi1 B2 <br> virgile.esnaux@edu.univ-fcomte.fr</p>
+                </div>
+            </div>
+            <div class="footer__leftelement">
+                <p>MENTIONS LÉGALES</p>
+                <div class="footer__leftelement-text">
+                    <p>"projet de festival réalisé en 2025 dans le cadre d'un exercice pédagogique au
+                        département
+                        MMi de
+                        Montbéliard"</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__right">
+            <a href="programmation.html" class="footer__rightelement">Festival</a>
+            <a href="contact.html" class="footer__rightelement">Contactez-nous</a>
+            <a href="a-propos.html" class="footer__rightelement">À propos</a>
+            <a href="infos-pratiques.html" class="footer__rightelement">Infos pratiques</a>
+            <div class="footer__division"></div>
+            <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank"
+                rel="noopener noreferrer" class="footer__logoMMi">
+                <img src="/assets/icon/MMI_logo.svg" alt="Logo MMi">
+            </a>
+        </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
