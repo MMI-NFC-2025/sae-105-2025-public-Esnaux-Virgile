@@ -22,9 +22,6 @@
     --font-mono: "Anonymous Pro", monospace;
     --font-important: "Barrio", cursive;
 
-    /* Styles de typographies */
-    --font-important-weight: 1000;
-
     /* Tailles de texte */
     --text-sm: 0.875rem;
     /* 14px */
@@ -76,4 +73,6 @@
     /* 52px */
     --space-hero: 3.5rem;
     /* 56px */
+    --space-texthero: 5rem;
+    /* 80px */
 }

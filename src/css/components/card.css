@@ -1,0 +1,20 @@
+.card__rect {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: var(--space-6xl);
+}
+
+.card__rect-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card__rect-body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--red);
+    font-family: var(--font-important);
+    font-size: var(--space-3xl);
+}

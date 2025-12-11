@@ -8,7 +8,6 @@
 .genre__titre {
     font-family: var(--font-important);
     font-size: var(--text-5xl);
-    font-weight: var(--font-important-weight);
     color: var(--dark);
     margin: 0;
     margin-bottom: var(--space-base);
@@ -108,4 +107,32 @@
     height: auto;
     margin-top: var(--space-4xl);
     margin-bottom: var(--space-4xl);
+}
+
+
+.text__red--large {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    background-color: var(--red);
+    font-family: var(--font-important);
+    font-size: var(--text-4xl);
+    color: var(--dark);
+    padding: var(--space-lg);
+    margin: auto;
+    margin-top: var(--space-texthero);
+    margin-bottom: var(--space-6xl);
+}
+
+.text__yellow {
+    display: block;
+    text-align: center;
+    background-color: var(--yellow);
+    font-family: var(--font-mono);
+    font-size: var(--text-3xl);
+    color: var(--dark);
+    padding: var(--space-lg);
+    margin: 0;
+    margin-top: var(--space-4xl);
+    margin-bottom: var(--space-6xl);
 }
