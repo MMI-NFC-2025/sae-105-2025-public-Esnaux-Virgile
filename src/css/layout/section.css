@@ -14,6 +14,7 @@
 }
 
 /* Barre de séparation */
+
 .genre__division {
     width: 120px;
     height: 4px;
@@ -84,6 +85,8 @@
     background-color: var(--dark);
     margin: 0 auto;
 }
+
+/* Section A Propos */
 
 .main__apropos {
     margin-top: var(--space-6xl);

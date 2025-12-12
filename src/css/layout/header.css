@@ -22,39 +22,3 @@
     font-weight: var(--font-important-weight);
     color: var(--dark);
 }
-
-.menu-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-smd);
-    margin-left: auto;
-    margin-right: calc(var(--space-lg) * -1);
-    /* Ajoute de la marge à droite, on ne peux pas faire - var(...) directement */
-}
-
-
-.bar1,
-.bar2,
-.bar3 {
-    width: 35px;
-    height: 4px;
-    background-color: var(--dark);
-    border-radius: 3px;
-    transition: 0.4s;
-}
-
-/* Animation croix */
-.menu-btn.open .bar1 {
-    transform: rotate(45deg) translate(8px, 8px);
-}
-
-.menu-btn.open .bar2 {
-    opacity: 0;
-}
-
-.menu-btn.open .bar3 {
-    transform: rotate(-45deg) translate(7px, -7px);
-}
