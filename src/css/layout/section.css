@@ -251,6 +251,22 @@
     border-radius: var(--space-xl);
 }
 
+.text__red--hero {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    background-color: var(--red);
+    font-family: var(--font-mono);
+    font-size: var(--text-2xl);
+    color: var(--dark);
+    padding: var(--space-lg);
+    margin: auto;
+    margin-top: var(--space-texthero);
+    margin-bottom: var(--space-5xl);
+}
+
+
+
 /* Section Contact */
 
 
