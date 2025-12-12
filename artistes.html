@@ -46,61 +46,76 @@
         <section class="artistes">
             <div class="text__red--large">Artistes</div>
 
-            <div class="carousel">
-                <div class="card__carousel">
-                    <img src="assets/image/maxresdefault2page3.avif" alt="Image du groupe Lindalë"
-                        class="card__carousel-img">
-                    <div class="card__carousel-title">
-                        <h3>Lindalë</h3>
+            <div class="carousel-wrapper">
+                <button class="carousel-nav carousel-nav--left" id="prevBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18l-6-6 6-6" stroke="white" stroke-width="3" stroke-linecap="round" />
+                    </svg>
+                </button>
+
+                <div class="carousel" id="carousel">
+                    <div class="card__carousel">
+                        <img src="assets/image/maxresdefault2page3.avif" alt="Image du groupe Lindalë"
+                            class="card__carousel-img">
+                        <div class="card__carousel-title">
+                            <h3>Lindalë</h3>
+                        </div>
+                        <div class="card__carousel-info">
+                            <p>Vendredi 28 Août<br>Scène "La Fourmi"</p>
+                        </div>
                     </div>
-                    <div class="card__carousel-info">
-                        <p>Vendredi 28 Août<br>Scène "La Fourmi"</p>
+
+                    <div class="card__carousel">
+                        <img src="assets/image/trio-durand-millet-raillard-musique-trad-du-morvan_page3.avif"
+                            alt="Image du groupe trio Durand Millet Raillard" class="card__carousel-img">
+                        <div class="card__carousel-title">
+                            <h3>Trio Durand <br> Millet Raillard</h3>
+                        </div>
+                        <div class="card__carousel-info">
+                            <p>Vendredi 28 Août<br>Scène "La Fourmi"</p>
+                        </div>
+                    </div>
+
+                    <div class="card__carousel">
+                        <img src="assets/image/hubert-felix-thiefaine-page3.avif" alt="Image de Hubert Félix Thiéfaine"
+                            class="card__carousel-img">
+                        <div class="card__carousel-title">
+                            <h3>Hubert Félix Thiéfaine</h3>
+                        </div>
+                        <div class="card__carousel-info">
+                            <p>Samedi 29 Août<br>Scène "La Fourmi"</p>
+                        </div>
+                    </div>
+
+                    <div class="card__carousel">
+                        <img src="assets/image/chanteurs-danseurs-et-musiciens-photo-florent-laflotte-page3.avif"
+                            alt="Image du groupe la Bourguignonne" class="card__carousel-img">
+                        <div class="card__carousel-title">
+                            <h3>La Bourguignonne</h3>
+                        </div>
+                        <div class="card__carousel-info">
+                            <p>Samedi 29 Août<br>Scène "La Fourmi"</p>
+                        </div>
+                    </div>
+
+                    <div class="card__carousel">
+                        <img src="assets/image/image2.avif" alt="Image du groupe Ange" class="card__carousel-img">
+                        <div class="card__carousel-title">
+                            <h3>Ange</h3>
+                        </div>
+                        <div class="card__carousel-info">
+                            <p>Dimanche 30 Août<br>Scène "La Fourmi"</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card__carousel">
-                    <img src="assets/image/trio-durand-millet-raillard-musique-trad-du-morvan_page3.avif"
-                        alt="Image du groupe trio Durand Millet Raillard" class="card__carousel-img">
-                    <div class="card__carousel-title">
-                        <h3>Trio Durand <br> Millet Raillard</h3>
-                    </div>
-                    <div class="card__carousel-info">
-                        <p>Vendredi 28 Août<br>Scène "La Fourmi"</p>
-                    </div>
-                </div>
-
-                <div class="card__carousel">
-                    <img src="assets/image/hubert-felix-thiefaine-page3.avif" alt="Image de Hubert Félix Thiéfaine"
-                        class="card__carousel-img">
-                    <div class="card__carousel-title">
-                        <h3>Hubert Félix Thiéfaine</h3>
-                    </div>
-                    <div class="card__carousel-info">
-                        <p>Samedi 29 Août<br>Scène "La Fourmi"</p>
-                    </div>
-                </div>
-
-                <div class="card__carousel">
-                    <img src="assets/image/chanteurs-danseurs-et-musiciens-photo-florent-laflotte-page3.avif"
-                        alt="Image du groupe la Bourguignonne" class="card__carousel-img">
-                    <div class="card__carousel-title">
-                        <h3>La Bourguignonne</h3>
-                    </div>
-                    <div class="card__carousel-info">
-                        <p>Samedi 29 Août<br>Scène "La Fourmi"</p>
-                    </div>
-                </div>
-
-                <div class="card__carousel">
-                    <img src="assets/image/image2.avif" alt="Image du groupe Ange" class="card__carousel-img">
-                    <div class="card__carousel-title">
-                        <h3>Ange</h3>
-                    </div>
-                    <div class="card__carousel-info">
-                        <p>Dimanche 30 Août<br>Scène "La Fourmi"</p>
-                    </div>
-                </div>
+                <button class="carousel-nav carousel-nav--right" id="nextBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18l6-6-6-6" stroke="white" stroke-width="3" stroke-linecap="round" />
+                    </svg>
+                </button>
             </div>
+
             <div class="artistes__special">
                 <img src="/assets/image/imageillustrationgraphique.avif" alt="Image illustration graphique"
                     class="artistes__special-img">
