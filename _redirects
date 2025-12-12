@@ -1,1 +1,12 @@
+# Fichier _redirects
+
+# Chemins simplifiés
+/artistes   /artistes.html   200
+/contact    /contact.html    200
+/apropos    /a-propos.html   200
+/scene      /scene.html      200
+/programme  /programmation.html  200
+/infos      /infos-pratiques.html  200
+
+# Page d'erreur
 /*    /404.html   404
