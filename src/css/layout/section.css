@@ -112,6 +112,7 @@
     margin-bottom: var(--space-4xl);
 }
 
+/* Section Programmation */
 
 .text__red--large {
     display: flex;
@@ -139,6 +140,9 @@
     margin-top: var(--space-4xl);
     margin-bottom: var(--space-6xl);
 }
+
+/* Section Artistes */
+
 
 .artistes__special {
     margin-top: var(--space-6xl);
@@ -195,6 +199,7 @@
 }
 
 
+
 .text__white {
     display: block;
     width: fit-content;
@@ -207,6 +212,9 @@
     margin-bottom: var(--space-6xl);
     border-radius: var(--space-xl);
 }
+
+/* Section Scène */
+
 
 .scene_img {
     margin-bottom: var(--space-6xl);
@@ -227,75 +235,7 @@
     margin-bottom: var(--space-6xl);
 }
 
-.text__red--hero {
-    display: flex;
-    width: fit-content;
-    justify-content: center;
-    background-color: var(--red);
-    font-family: var(--font-mono);
-    font-size: var(--text-2xl);
-    color: var(--dark);
-    padding: var(--space-lg);
-    margin: auto;
-    margin-top: var(--space-texthero);
-    margin-bottom: var(--space-5xl);
-}
-
-.cards-row {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: var(--space-2xl);
-    margin-bottom: var(--space-2xl);
-    padding: 0 var(--space-md);
-}
-
-.mini-card {
-    display: flex;
-    flex-direction: column;
-    width: 42%;
-}
-
-.mini-card__img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    display: block;
-    margin: 0;
-}
-
-.mini-card__title {
-    background-color: var(--red);
-    text-align: center;
-    padding: var(--space-md);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 50px;
-}
-
-.mini-card__title h3 {
-    font-family: var(--font-important);
-    font-size: var(--text-base);
-    margin: 0;
-    color: var(--dark);
-    text-transform: uppercase;
-}
-
-.card-large-centered {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    margin: 0 auto;
-    font-size: var(--text-2xl);
-    margin-top: var(--space-6xl);
-    margin-bottom: var(--space-6xl);
-}
-
-.title-large h3 {
-    font-size: var(--text-5xl);
-}
+/* Section Infos pratiques */
 
 .text__navyblue-var {
     display: block;
@@ -310,6 +250,9 @@
     margin-bottom: var(--space-4xl);
     border-radius: var(--space-xl);
 }
+
+/* Section Contact */
+
 
 .contact__form-container {
     background-color: var(--red);
@@ -382,6 +325,8 @@
 .form__submit:active {
     transform: scale(0.98);
 }
+
+/* favicons section Contact */
 
 .icons-container {
     display: flex;

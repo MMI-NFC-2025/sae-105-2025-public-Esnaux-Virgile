@@ -17,8 +17,7 @@
 
 .footer__logo-left {
     font-family: var(--font-important);
-    font-size: var(--text-header);
-    font-weight: var(--font-important-weight);
+    font-size: var(--text-5xl);
     color: var(--dark);
     line-height: 1;
 }
@@ -26,7 +25,6 @@
 .footer__logo-leftfestival {
     font-family: var(--font-important);
     font-size: var(--text-miniheader);
-    font-weight: var(--font-important-weight);
     color: var(--dark);
 }
 

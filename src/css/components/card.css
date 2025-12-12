@@ -1,3 +1,5 @@
+/* Section Artistes */
+
 .card__rect {
     width: 70%;
     margin: 0 auto;
@@ -17,4 +19,68 @@
     background-color: var(--red);
     font-family: var(--font-important);
     font-size: var(--space-3xl);
+}
+
+/* Section Scène */
+
+.cards-row {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-2xl);
+    padding: 0 var(--space-md);
+}
+
+.mini-card {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+}
+
+.mini-card__img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+}
+
+.mini-card__title {
+    background-color: var(--red);
+    text-align: center;
+    padding: var(--space-md);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.mini-card__title h3 {
+    font-family: var(--font-important);
+    font-size: var(--text-base);
+    margin: 0;
+    color: var(--dark);
+    text-transform: uppercase;
+}
+
+.card-large-centered {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    font-size: var(--text-6xl);
+    margin-top: var(--space-6xl);
+    margin-bottom: var(--space-6xl);
+}
+
+.mini-card__bigtitle {
+    background-color: var(--red);
+    font-size: var(--text-4xl);
+    font-family: var(--font-important);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
