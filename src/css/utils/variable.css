@@ -39,8 +39,6 @@
     /* 32px */
     --text-4xl: 2.25rem;
     /* 36px */
-    --text-header: 2.625rem;
-    /* 42px */
     --text-5xl: 3rem;
     /* 48px */
     --text-6xl: 3.75rem;
@@ -71,10 +69,10 @@
     /* 32px */
     --space-5xl: 2.5rem;
     /* 40px */
+    --space-hero: 3rem;
+    /* 48px */
     --space-6xl: 3.25rem;
     /* 52px */
-    --space-hero: 3.5rem;
-    /* 56px */
     --space-texthero: 5rem;
     /* 80px */
 }

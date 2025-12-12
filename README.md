@@ -3,6 +3,8 @@
 
 Exercice effectuer sur Mozilla Firefox avec comme dimension 302 x 512
 
+Je n'avais pas la Search bar sur ma maquette, j'ai donc changé le header de la maquette pour ajouter barre de navigation
+
 
 À compléter :
 

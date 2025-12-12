@@ -49,3 +49,35 @@ if (contactForm && confirmMsg) {
 }
 
 
+// URL: Toutes les pages; Interaction barre de recherche 
+const searchBtn = document.getElementById('search-btn');
+const searchContainer = document.getElementById('search-container');
+const searchInput = document.getElementById('search-input');
+
+if (searchBtn && searchContainer) {
+    searchBtn.addEventListener('click', function (e) {
+        e.stopPropagation(); // Empêche la propagation du clic
+
+        searchContainer.classList.toggle('active');
+
+        // Focus sur l'input quand ouvert
+        if (searchContainer.classList.contains('active')) {
+            setTimeout(() => {
+                searchInput.focus();
+            }, 100);
+        }
+    });
+
+    // Ferme la recherche si on clique ailleurs
+    document.addEventListener('click', function (e) {
+        if (!searchContainer.contains(e.target)) {
+            searchContainer.classList.remove('active');
+        }
+    });
+
+    // Empêche la fermeture si on clique dans l'input
+    searchInput.addEventListener('click', function (e) {
+        e.stopPropagation();
+    });
+}
+
