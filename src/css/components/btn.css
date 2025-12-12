@@ -30,6 +30,14 @@
     background-color: var(--yellow);
 }
 
+/* Modifier pour le bouton de téléchargement (rouge) */
+.btn--download {
+    background-color: var(--red);
+    font-size: var(--space-3xl);
+    width: auto;
+    margin: 0 auto;
+}
+
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 var(--space-sm) var(--space-base) var(--dark);

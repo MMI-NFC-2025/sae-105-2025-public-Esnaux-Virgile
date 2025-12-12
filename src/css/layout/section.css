@@ -114,6 +114,16 @@
 
 /* Section Programmation */
 
+.download-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--space-5xl);
+    margin-bottom: var(--space-6xl);
+}
+
+/* Section Artistes */
+
 .text__red--large {
     display: flex;
     width: fit-content;
