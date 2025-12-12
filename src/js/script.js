@@ -9,6 +9,8 @@ menuBtn.addEventListener('click', function () {
     body.classList.toggle('menu-open');
 });
 
+
+
 // URL: artistes.html; Carrousel
 const carouselEl = document.getElementById('carousel');
 const prev = document.getElementById('prevBtn');
@@ -25,8 +27,8 @@ if (carouselEl && prev && next) {
 }
 
 
-// URL: contact.html; Formulaire de contact
 
+// URL: contact.html; Formulaire de contact
 const contactForm = document.querySelector('.contact__form');
 const confirmMsg = document.getElementById('confirmation-message');
 
